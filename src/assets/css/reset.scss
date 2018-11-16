@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th {
+  text-align: left;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+a, a:active, a:link {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+input, button, textarea, select, optgroup, option{
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+  //-webkit-appearance: none;
+}
+
+button{
+  -webkit-appearance: none;
+  border: 0;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+input[type="number"]{
+  -moz-appearance:textfield;
+}
+input[type="button"], textarea {
+  -webkit-appearance: none;
+  -webkit-user-modify: read-write-plaintext-only;
+}
+a{
+  -webkit-touch-callout:none;
+  text-decoration: none;
+}
+
+:focus{
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+em, address, i {
+  font-style: normal;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+/*CSS Reset end*/
+
+
